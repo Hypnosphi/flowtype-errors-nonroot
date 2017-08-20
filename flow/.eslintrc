@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "flowtype-errors/show-errors": 2,
+    "no-undef": 2
+  }
+}

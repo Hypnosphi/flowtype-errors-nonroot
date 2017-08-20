@@ -1,0 +1,18 @@
+{
+  "name": "flowtype-errors-nonroot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint-flow": "cd flow && eslint ."
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "eslint": "^4.5.0",
+    "eslint-plugin-flowtype-errors": "^3.3.1",
+    "flow-bin": "^0.53.1"
+  }
+}
